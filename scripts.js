@@ -1,4 +1,4 @@
-console.log("Hola perro");
+// console.log("Hola perro");
 
 const ImagesGalery = [
   {
@@ -100,11 +100,11 @@ const openMenu = () => {
   var x = document.getElementById("menu");
   if (x.className === "navbar-responsive") {
     x.className += " -active";
-    console.log(x.className);
+    // console.log(x.className);
   } else {
     x.className = "navbar-responsive";
   }
-  console.log(x.className);
+  // console.log(x.className);
 };
 
 window.onload = AddImagesGalery;
